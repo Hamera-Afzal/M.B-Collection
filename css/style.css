@@ -1,0 +1,88 @@
+
+a:hover{
+    text-decoration: none;
+}
+#header{
+   color: white;
+   background: black;
+}
+#menue{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menue li{
+    display: inline-block;
+}
+#menue li a{
+    color: white;
+    display: block;
+    padding: 10px 45px;
+}
+.text{
+    text-decoration: line-through;
+}
+.highlight{
+    font-size: large;
+    color: black;
+}
+#sale{
+    text-align: center;
+    padding-top: 30px;
+}
+.ramdan h1{
+    font-style: oblique;
+    color: brown;
+    padding-bottom: 20px;
+}
+.coll h1{
+    font-style: oblique;
+    color: brown;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+#DP{
+    text-align: right;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+/* .dp{
+    text-align: end;
+} */
+.dp img{
+    border-radius: 50%;
+}
+@media ( max-width: 768px){
+    *{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #menue li a{
+        padding: 10px 40px;
+        text-align: center;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    #DP{
+        margin-left: 0;
+    }
+    #low-dp{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .col-sm-6 img{
+        width: 300px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .col-sm-4 img{
+        width: 200px;
+    }
+}
